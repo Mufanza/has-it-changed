@@ -2,7 +2,7 @@
 
 namespace HasItChanged.Configuration
 {
-    public class ConfigReader
+    public static class ConfigReader
     {
         public static readonly string DefaultPathToConfig = Path.Combine(Environment.CurrentDirectory, "HasItChanged_Config.json");
 
@@ -14,7 +14,7 @@ namespace HasItChanged.Configuration
         /// <returns>
         /// An instance of the Configuration class
         /// </returns>
-        public Config ReadConfiguration(string? pathToConfig = null)
+        public static Config ReadConfiguration(string? pathToConfig = null)
         {
             if (string.IsNullOrWhiteSpace(pathToConfig))
                 pathToConfig = DefaultPathToConfig;

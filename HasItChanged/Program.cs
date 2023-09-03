@@ -1,6 +1,7 @@
 ﻿
 
 using HasItChanged.Configuration;
+using HasItChanged.Filesystem;
 
 class Program
 {
@@ -14,7 +15,10 @@ class Program
         try
         {
             // Read the configuration
-            var config = new ConfigReader().ReadConfiguration();
+            var config = ConfigReader.ReadConfiguration();
+
+            // Try read previous file structure
+            var previousFileStructure = FileStructureSerializer.ReadFileStructure();
 
             return 0;
         }
