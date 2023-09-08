@@ -1,5 +1,6 @@
 ﻿using HasItChanged.Configuration;
 using HasItChanged.Filesystem;
+using System.Text;
 
 public class Program
 {
@@ -37,7 +38,9 @@ public class Program
             }
             else
             {
-                logger?.WriteLine("Some changes were detected.");
+                logger?.WriteLine("Some changes were detected:");
+                if (ShouldDiffBeDisplayed(args))
+                    FileStructureComparer.Diff(previousFileStructure, currentFileStructure, logger);
                 return 1;
             }
         }
@@ -49,4 +52,5 @@ public class Program
     }
 
     private static bool IsSilent(string[] args) => args.Any(a => a == "-s");
+    private static bool ShouldDiffBeDisplayed(string[] args) => args.Any(a => a == "-d");
 }
