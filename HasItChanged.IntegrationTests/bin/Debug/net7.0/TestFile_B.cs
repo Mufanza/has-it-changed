@@ -1,1 +1,0 @@
-Default words in test file B
