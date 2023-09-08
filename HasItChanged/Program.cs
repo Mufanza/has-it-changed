@@ -1,6 +1,4 @@
-﻿
-
-using HasItChanged.Configuration;
+﻿using HasItChanged.Configuration;
 using HasItChanged.Filesystem;
 
 class Program
@@ -10,7 +8,7 @@ class Program
     /// 0 if there were no changes
     /// -1 if something went wrong
     /// </returns>
-    static int Main(string[] args)
+    static async Task<int> Main(string[] args)
     {
         try
         {
@@ -19,8 +17,13 @@ class Program
 
             // Try read previous file structure
             var previousFileStructure = FileStructureSerializer.ReadFileStructure();
+            var currentFileStructure = await new FileStructureMapper(new FileMetadataCreator(), config).MapFileStructure();
+            FileStructureSerializer.SaveFileStructure(currentFileStructure);
 
-            return 0;
+            if (FileStructureComparer.AreFileStructuresEqual(previousFileStructure, currentFileStructure))
+                return 0;
+            else
+                return 1;
         }
         catch (Exception)
         {

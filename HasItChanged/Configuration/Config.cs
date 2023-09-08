@@ -11,18 +11,23 @@ namespace HasItChanged.Configuration
         public static Config DefaultConfiguration => new Config();
 
         /// <summary>
-        /// What files is this checker interested in
+        /// Specifies which file types should be considered by the checker.
         /// Files not mentioned here will not be checked for changes
         /// Leave this empty to check ALL files for changes
         /// </summary>
-        public String[] FileExtensions { get; set; } = new string[0];
+        public string[] FileExtensions { get; set; } = new string[0];
         
         /// <summary>
         /// Root of the folder where the checker should start checking for filechanges
         /// All subfolders of this folder will be searched as well
         /// If not filled, the CurrentDirectory will be set as root
         /// </summary>
-        public string? Root { get; set; }
+        public string Root
+        { 
+            get => this._root ?? Environment.CurrentDirectory;
+            set => this._root = value;
+        }
+        private string? _root = null;
 
         public bool Equals(Config? other)
         {
