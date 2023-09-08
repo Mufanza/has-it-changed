@@ -1,11 +1,12 @@
-﻿using HasItChanged.Filesystem;
+﻿using HasItChanged.Configuration;
+using HasItChanged.Filesystem;
 
 namespace HasItChanged.UnitTests.Filesystem
 {
     [TestClass]
     public class FileStructureSerializerTests
     {
-        private string pathToTestFileStructureFile = FileStructureSerializer.DefaultPathToFileStructure;
+        private string pathToTestFileStructureFile = FileStructureSerializer.DefaultPastFileStructureFilename;
 
         [TestCleanup]
         public void Cleanup()
@@ -49,7 +50,7 @@ namespace HasItChanged.UnitTests.Filesystem
 
 
             // Act
-            FileStructureSerializer.SaveFileStructure(initialFileStructure);
+            FileStructureSerializer.SaveFileStructure(initialFileStructure, new Config().PathToPastDataFile);
             var deserializedFileStructure = FileStructureSerializer.ReadFileStructure(this.pathToTestFileStructureFile);
 
             // Assert

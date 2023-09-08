@@ -10,23 +10,17 @@ namespace HasItChanged.Filesystem
 {
     public static class FileStructureSerializer
     {
-        public static readonly string DefaultPathToFileStructure = Path.Combine(Environment.CurrentDirectory, "HasItChanged_FileStructure.json");
+        public const string DefaultPastFileStructureFilename = "HasItChanged_FileStructure.json";
 
-        public static void SaveFileStructure(Dictionary<string, FileMetadata[]> fileStructure, string? filePath = null)
+        public static void SaveFileStructure(Dictionary<string, FileMetadata[]> fileStructure, string filePath)
         {
-            if (string.IsNullOrWhiteSpace(filePath))
-                filePath = DefaultPathToFileStructure;
-
             var options = new JsonSerializerOptions { WriteIndented = true };
             string jsonString = JsonSerializer.Serialize(fileStructure, options);
             File.WriteAllText(filePath, jsonString);
         }
 
-        public static Dictionary<string, FileMetadata[]>? ReadFileStructure(string? filePath = null)
+        public static Dictionary<string, FileMetadata[]>? ReadFileStructure(string filePath)
         {
-            if (string.IsNullOrWhiteSpace(filePath))
-                filePath = DefaultPathToFileStructure;
-
             if (!File.Exists(filePath))
                 return null;
 

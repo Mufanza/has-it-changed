@@ -1,0 +1,979 @@
+{
+  "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\publish\\win-x86": [
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\publish\\win-x86\\HasItChanged.exe",
+      "ByteSize": 11254241,
+      "FileHash": 1840536141
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\publish\\win-x86\\HasItChanged.pdb",
+      "ByteSize": 13512,
+      "FileHash": 181371915
+    }
+  ],
+  "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86": [
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Xml.ReaderWriter.dll",
+      "ByteSize": 22176,
+      "FileHash": 1387997858
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Xml.Linq.dll",
+      "ByteSize": 16504,
+      "FileHash": 2012847623
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Xml.dll",
+      "ByteSize": 24696,
+      "FileHash": 1841315152
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Windows.dll",
+      "ByteSize": 16544,
+      "FileHash": -1651314170
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Web.HttpUtility.dll",
+      "ByteSize": 63616,
+      "FileHash": 1242161395
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Web.dll",
+      "ByteSize": 16048,
+      "FileHash": 441751544
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.ValueTuple.dll",
+      "ByteSize": 16008,
+      "FileHash": 46002767
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Transactions.Local.dll",
+      "ByteSize": 530560,
+      "FileHash": -1840912909
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Transactions.dll",
+      "ByteSize": 17520,
+      "FileHash": -2135729608
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Threading.Timer.dll",
+      "ByteSize": 15496,
+      "FileHash": -494218734
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Threading.ThreadPool.dll",
+      "ByteSize": 16048,
+      "FileHash": 360125718
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Threading.Thread.dll",
+      "ByteSize": 16032,
+      "FileHash": -1950470546
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Threading.Tasks.Parallel.dll",
+      "ByteSize": 129160,
+      "FileHash": 1777758041
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Threading.Tasks.Extensions.dll",
+      "ByteSize": 16512,
+      "FileHash": -72840186
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Threading.Tasks.dll",
+      "ByteSize": 17072,
+      "FileHash": -731809520
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.dll",
+      "ByteSize": 19104,
+      "FileHash": 541992951
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Cryptography.X509Certificates.dll",
+      "ByteSize": 17536,
+      "FileHash": -364246402
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Cryptography.Primitives.dll",
+      "ByteSize": 16000,
+      "FileHash": -323245324
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Cryptography.OpenSsl.dll",
+      "ByteSize": 16032,
+      "FileHash": -248656063
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Cryptography.Encoding.dll",
+      "ByteSize": 16048,
+      "FileHash": -602836311
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Cryptography.dll",
+      "ByteSize": 1730680,
+      "FileHash": -1446076480
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Cryptography.Csp.dll",
+      "ByteSize": 16520,
+      "FileHash": 829195717
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Cryptography.Cng.dll",
+      "ByteSize": 16504,
+      "FileHash": 1426029180
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Cryptography.Algorithms.dll",
+      "ByteSize": 17528,
+      "FileHash": 1933329343
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Claims.dll",
+      "ByteSize": 92272,
+      "FileHash": 178198841
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.AccessControl.dll",
+      "ByteSize": 215160,
+      "FileHash": -976262961
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.Serialization.Xml.dll",
+      "ByteSize": 17072,
+      "FileHash": -642974691
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.Serialization.Primitives.dll",
+      "ByteSize": 39040,
+      "FileHash": -1157363703
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.Serialization.Json.dll",
+      "ByteSize": 16000,
+      "FileHash": 689020994
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.Serialization.Formatters.dll",
+      "ByteSize": 309368,
+      "FileHash": -2045969556
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Numerics.Vectors.dll",
+      "ByteSize": 16032,
+      "FileHash": -236021026
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Numerics.dll",
+      "ByteSize": 16032,
+      "FileHash": -1561869084
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.WebSockets.dll",
+      "ByteSize": 174208,
+      "FileHash": -368147499
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.WebSockets.Client.dll",
+      "ByteSize": 92280,
+      "FileHash": -1461121560
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.WebProxy.dll",
+      "ByteSize": 43128,
+      "FileHash": 1054859824
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.WebHeaderCollection.dll",
+      "ByteSize": 63624,
+      "FileHash": 1296596693
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.WebClient.dll",
+      "ByteSize": 153728,
+      "FileHash": 558551749
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.Sockets.dll",
+      "ByteSize": 501880,
+      "FileHash": 826728548
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.ServicePoint.dll",
+      "ByteSize": 47224,
+      "FileHash": 638195666
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.Security.dll",
+      "ByteSize": 563336,
+      "FileHash": -805259265
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.Requests.dll",
+      "ByteSize": 325768,
+      "FileHash": 2006421940
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.Quic.dll",
+      "ByteSize": 252024,
+      "FileHash": -652874551
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.Primitives.dll",
+      "ByteSize": 206976,
+      "FileHash": -1595508924
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.Ping.dll",
+      "ByteSize": 88200,
+      "FileHash": 607480367
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.NetworkInformation.dll",
+      "ByteSize": 153720,
+      "FileHash": 967614097
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Private.DataContractSerialization.dll",
+      "ByteSize": 2062464,
+      "FileHash": 1990904556
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Private.CoreLib.dll",
+      "ByteSize": 10987640,
+      "FileHash": 1501344081
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.ObjectModel.dll",
+      "ByteSize": 71808,
+      "FileHash": -1742465541
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.NameResolution.dll",
+      "ByteSize": 100472,
+      "FileHash": -1483532241
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.Mail.dll",
+      "ByteSize": 403576,
+      "FileHash": -2011347753
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.HttpListener.dll",
+      "ByteSize": 628856,
+      "FileHash": -724112053
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.Http.Json.dll",
+      "ByteSize": 100480,
+      "FileHash": 1597700032
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.Http.dll",
+      "ByteSize": 1599616,
+      "FileHash": 2087006499
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Net.dll",
+      "ByteSize": 18048,
+      "FileHash": 1007610511
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Memory.dll",
+      "ByteSize": 153720,
+      "FileHash": 1654033779
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Linq.Queryable.dll",
+      "ByteSize": 215160,
+      "FileHash": 574129719
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Linq.Parallel.dll",
+      "ByteSize": 776312,
+      "FileHash": -48604674
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Linq.Expressions.dll",
+      "ByteSize": 3512440,
+      "FileHash": 1714942235
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Linq.dll",
+      "ByteSize": 456824,
+      "FileHash": -1618758543
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.UnmanagedMemoryStream.dll",
+      "ByteSize": 16032,
+      "FileHash": 1154102883
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.Pipes.dll",
+      "ByteSize": 170112,
+      "FileHash": 79285740
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.Pipes.AccessControl.dll",
+      "ByteSize": 16512,
+      "FileHash": -661703233
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.MemoryMappedFiles.dll",
+      "ByteSize": 79992,
+      "FileHash": 1774108817
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.IsolatedStorage.dll",
+      "ByteSize": 84088,
+      "FileHash": 777228567
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.FileSystem.Watcher.dll",
+      "ByteSize": 79992,
+      "FileHash": 950501797
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.FileSystem.Primitives.dll",
+      "ByteSize": 16000,
+      "FileHash": -295118079
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.FileSystem.DriveInfo.dll",
+      "ByteSize": 51328,
+      "FileHash": -715066135
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.FileSystem.dll",
+      "ByteSize": 16048,
+      "FileHash": 1566784708
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.FileSystem.AccessControl.dll",
+      "ByteSize": 100488,
+      "FileHash": 1787149994
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.dll",
+      "ByteSize": 16000,
+      "FileHash": 2110958696
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.Compression.ZipFile.dll",
+      "ByteSize": 47240,
+      "FileHash": 1683233305
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.Compression.Native.dll",
+      "ByteSize": 773248,
+      "FileHash": 1893054174
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.Compression.FileSystem.dll",
+      "ByteSize": 16000,
+      "FileHash": 299693673
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.Compression.dll",
+      "ByteSize": 256112,
+      "FileHash": 914532843
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.IO.Compression.Brotli.dll",
+      "ByteSize": 79992,
+      "FileHash": -634170068
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Globalization.Extensions.dll",
+      "ByteSize": 15992,
+      "FileHash": -320779895
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Globalization.dll",
+      "ByteSize": 16032,
+      "FileHash": -52665031
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Globalization.Calendars.dll",
+      "ByteSize": 16512,
+      "FileHash": 1840659175
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Threading.Tasks.Dataflow.dll",
+      "ByteSize": 477304,
+      "FileHash": -943022456
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Threading.Overlapped.dll",
+      "ByteSize": 16032,
+      "FileHash": -1134313536
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Threading.dll",
+      "ByteSize": 84096,
+      "FileHash": 1784893841
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Threading.Channels.dll",
+      "ByteSize": 120952,
+      "FileHash": 38636658
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Text.RegularExpressions.dll",
+      "ByteSize": 915576,
+      "FileHash": 2033668158
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Text.Json.dll",
+      "ByteSize": 1370232,
+      "FileHash": 1093387260
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Text.Encodings.Web.dll",
+      "ByteSize": 129144,
+      "FileHash": 1867917391
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Text.Encoding.Extensions.dll",
+      "ByteSize": 15992,
+      "FileHash": -1984409056
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Text.Encoding.dll",
+      "ByteSize": 15992,
+      "FileHash": 265870745
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Text.Encoding.CodePages.dll",
+      "ByteSize": 870520,
+      "FileHash": 1014282312
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.ServiceProcess.dll",
+      "ByteSize": 16512,
+      "FileHash": -1226202138
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.ServiceModel.Web.dll",
+      "ByteSize": 17544,
+      "FileHash": -1942309341
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.SecureString.dll",
+      "ByteSize": 16048,
+      "FileHash": -2086444564
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Principal.Windows.dll",
+      "ByteSize": 170120,
+      "FileHash": -335521007
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Security.Principal.dll",
+      "ByteSize": 16000,
+      "FileHash": 623007913
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\WindowsBase.dll",
+      "ByteSize": 17024,
+      "FileHash": 1784953085
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Xml.XPath.XDocument.dll",
+      "ByteSize": 30848,
+      "FileHash": 334243126
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Xml.XPath.dll",
+      "ByteSize": 16032,
+      "FileHash": 1205801809
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Xml.XmlSerializer.dll",
+      "ByteSize": 18048,
+      "FileHash": 16612842
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Xml.XmlDocument.dll",
+      "ByteSize": 16504,
+      "FileHash": 967191241
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Xml.XDocument.dll",
+      "ByteSize": 16048,
+      "FileHash": -246288992
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Xml.Serialization.dll",
+      "ByteSize": 17072,
+      "FileHash": -1730774099
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.Serialization.dll",
+      "ByteSize": 17544,
+      "FileHash": -1965017854
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.Numerics.dll",
+      "ByteSize": 317560,
+      "FileHash": 2094751687
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.Loader.dll",
+      "ByteSize": 16032,
+      "FileHash": -1395060145
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.Intrinsics.dll",
+      "ByteSize": 17024,
+      "FileHash": 1110580612
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.InteropServices.RuntimeInformation.dll",
+      "ByteSize": 15992,
+      "FileHash": -1347285605
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.InteropServices.JavaScript.dll",
+      "ByteSize": 47240,
+      "FileHash": 484640761
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.InteropServices.dll",
+      "ByteSize": 59520,
+      "FileHash": 2019997627
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.Handles.dll",
+      "ByteSize": 16048,
+      "FileHash": -583556072
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.Extensions.dll",
+      "ByteSize": 18040,
+      "FileHash": -166535285
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.dll",
+      "ByteSize": 43136,
+      "FileHash": -1578488867
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.CompilerServices.VisualC.dll",
+      "ByteSize": 30856,
+      "FileHash": 1994099565
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Runtime.CompilerServices.Unsafe.dll",
+      "ByteSize": 16000,
+      "FileHash": -717661099
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Resources.Writer.dll",
+      "ByteSize": 51320,
+      "FileHash": -2091347895
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Resources.ResourceManager.dll",
+      "ByteSize": 16048,
+      "FileHash": -1337327047
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Resources.Reader.dll",
+      "ByteSize": 15520,
+      "FileHash": 810768164
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Reflection.TypeExtensions.dll",
+      "ByteSize": 43136,
+      "FileHash": 1904359500
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Reflection.Primitives.dll",
+      "ByteSize": 16048,
+      "FileHash": 298005912
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Reflection.Metadata.dll",
+      "ByteSize": 1087624,
+      "FileHash": -752301698
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Reflection.Extensions.dll",
+      "ByteSize": 15536,
+      "FileHash": 586687152
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Reflection.Emit.Lightweight.dll",
+      "ByteSize": 16000,
+      "FileHash": -994104142
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Reflection.Emit.ILGeneration.dll",
+      "ByteSize": 16048,
+      "FileHash": 482006757
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Reflection.Emit.dll",
+      "ByteSize": 16000,
+      "FileHash": 724720249
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Reflection.dll",
+      "ByteSize": 16544,
+      "FileHash": 824982773
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Reflection.DispatchProxy.dll",
+      "ByteSize": 71808,
+      "FileHash": -1621794756
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Private.Xml.Linq.dll",
+      "ByteSize": 374904,
+      "FileHash": 818519557
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Private.Xml.dll",
+      "ByteSize": 7825544,
+      "FileHash": 1104766843
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Private.Uri.dll",
+      "ByteSize": 256120,
+      "FileHash": 655679173
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Formats.Tar.dll",
+      "ByteSize": 247936,
+      "FileHash": 859768887
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Formats.Asn1.dll",
+      "ByteSize": 186488,
+      "FileHash": 348592020
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Dynamic.Runtime.dll",
+      "ByteSize": 16512,
+      "FileHash": 1255818499
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Drawing.Primitives.dll",
+      "ByteSize": 129152,
+      "FileHash": 627434406
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Drawing.dll",
+      "ByteSize": 21120,
+      "FileHash": -1863824405
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.dll",
+      "ByteSize": 50808,
+      "FileHash": 1778548477
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Diagnostics.Tracing.dll",
+      "ByteSize": 16504,
+      "FileHash": -121084992
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Diagnostics.TraceSource.dll",
+      "ByteSize": 133240,
+      "FileHash": 574067543
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Diagnostics.Tools.dll",
+      "ByteSize": 15984,
+      "FileHash": 735680123
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Diagnostics.TextWriterTraceListener.dll",
+      "ByteSize": 67712,
+      "FileHash": 279940233
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Diagnostics.StackTrace.dll",
+      "ByteSize": 47240,
+      "FileHash": -1880800184
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Diagnostics.Process.dll",
+      "ByteSize": 309368,
+      "FileHash": 2066097037
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Diagnostics.FileVersionInfo.dll",
+      "ByteSize": 47240,
+      "FileHash": 307971629
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Diagnostics.DiagnosticSource.dll",
+      "ByteSize": 366728,
+      "FileHash": 2044373014
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Diagnostics.Debug.dll",
+      "ByteSize": 16000,
+      "FileHash": 1714662156
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Diagnostics.Contracts.dll",
+      "ByteSize": 16520,
+      "FileHash": 313245363
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Data.dll",
+      "ByteSize": 25776,
+      "FileHash": 498539271
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Data.DataSetExtensions.dll",
+      "ByteSize": 16032,
+      "FileHash": 1492223741
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Data.Common.dll",
+      "ByteSize": 2779264,
+      "FileHash": -1445517247
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Core.dll",
+      "ByteSize": 24240,
+      "FileHash": -641221939
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Console.dll",
+      "ByteSize": 166024,
+      "FileHash": 347593542
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Configuration.dll",
+      "ByteSize": 20144,
+      "FileHash": -1778053209
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.ComponentModel.TypeConverter.dll",
+      "ByteSize": 694392,
+      "FileHash": 970322871
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.ComponentModel.Primitives.dll",
+      "ByteSize": 75896,
+      "FileHash": -1787017830
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.ComponentModel.EventBasedAsync.dll",
+      "ByteSize": 47224,
+      "FileHash": 2101503534
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.ComponentModel.dll",
+      "ByteSize": 30856,
+      "FileHash": -939803799
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.ComponentModel.DataAnnotations.dll",
+      "ByteSize": 17568,
+      "FileHash": 1273586981
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.ComponentModel.Annotations.dll",
+      "ByteSize": 182408,
+      "FileHash": 1967225643
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Collections.Specialized.dll",
+      "ByteSize": 96384,
+      "FileHash": -1564229045
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Collections.NonGeneric.dll",
+      "ByteSize": 96384,
+      "FileHash": 1157336954
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\Microsoft.VisualBasic.Core.dll",
+      "ByteSize": 1230976,
+      "FileHash": -1753361845
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\Microsoft.DiaSymReader.Native.x86.dll",
+      "ByteSize": 1553288,
+      "FileHash": 1348510589
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\Microsoft.CSharp.dll",
+      "ByteSize": 989296,
+      "FileHash": -1881947353
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\hostpolicy.dll",
+      "ByteSize": 331896,
+      "FileHash": -1907614677
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\hostfxr.dll",
+      "ByteSize": 316544,
+      "FileHash": 995903194
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\HasItChanged.runtimeconfig.json",
+      "ByteSize": 1087,
+      "FileHash": -123802853
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\HasItChanged.pdb",
+      "ByteSize": 13980,
+      "FileHash": -447478663
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\HasItChanged.exe",
+      "ByteSize": 8372736,
+      "FileHash": 222460825
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\HasItChanged.dll",
+      "ByteSize": 16384,
+      "FileHash": -568284039
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\HasItChanged.deps.json",
+      "ByteSize": 28894,
+      "FileHash": 1153511145
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\createdump.exe",
+      "ByteSize": 48840,
+      "FileHash": -1973578208
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\coreclr.dll",
+      "ByteSize": 4298880,
+      "FileHash": -1659954513
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\clrjit.dll",
+      "ByteSize": 1315960,
+      "FileHash": 42134977
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\clrgc.dll",
+      "ByteSize": 431232,
+      "FileHash": -1879480407
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\clretwrc.dll",
+      "ByteSize": 309376,
+      "FileHash": 774200643
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Collections.Immutable.dll",
+      "ByteSize": 616568,
+      "FileHash": -89799415
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Collections.dll",
+      "ByteSize": 247936,
+      "FileHash": 396163007
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Collections.Concurrent.dll",
+      "ByteSize": 239752,
+      "FileHash": 1407801057
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.Buffers.dll",
+      "ByteSize": 15488,
+      "FileHash": -161745733
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\System.AppContext.dll",
+      "ByteSize": 15536,
+      "FileHash": -53737338
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\netstandard.dll",
+      "ByteSize": 100992,
+      "FileHash": -610749131
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\msquic.dll",
+      "ByteSize": 497552,
+      "FileHash": -1990705381
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\mscorrc.dll",
+      "ByteSize": 137336,
+      "FileHash": 67865664
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\mscorlib.dll",
+      "ByteSize": 61576,
+      "FileHash": 73103539
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\mscordbi.dll",
+      "ByteSize": 1185712,
+      "FileHash": -190512954
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\mscordaccore_x86_x86_7.0.723.27404.dll",
+      "ByteSize": 1248160,
+      "FileHash": 1417725680
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\mscordaccore.dll",
+      "ByteSize": 1248160,
+      "FileHash": 1417725680
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\Microsoft.Win32.Registry.dll",
+      "ByteSize": 108672,
+      "FileHash": -1810450708
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\Microsoft.Win32.Primitives.dll",
+      "ByteSize": 16048,
+      "FileHash": 1260960040
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\win-x86\\Microsoft.VisualBasic.dll",
+      "ByteSize": 18048,
+      "FileHash": 1940943387
+    }
+  ],
+  "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\publish": [],
+  "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0": [
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\HasItChanged.exe",
+      "ByteSize": 154624,
+      "FileHash": -346620484
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\HasItChanged.pdb",
+      "ByteSize": 13972,
+      "FileHash": -1446531163
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\HasItChanged.runtimeconfig.json",
+      "ByteSize": 253,
+      "FileHash": -850471404
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\HasItChanged.dll",
+      "ByteSize": 16384,
+      "FileHash": -1982121729
+    },
+    {
+      "Path": "C:\\Repo\\has-it-changed\\HasItChanged\\bin\\Release\\net7.0\\HasItChanged.deps.json",
+      "ByteSize": 428,
+      "FileHash": 1013814622
+    }
+  ]
+}

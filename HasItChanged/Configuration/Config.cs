@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HasItChanged.Filesystem;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +30,12 @@ namespace HasItChanged.Configuration
         }
         private string? _root = null;
 
+        public string PathToPastDataFile {
+            get => Path.Combine(this.Root, this._pastFileStructureFilename ?? FileStructureSerializer.DefaultPastFileStructureFilename);
+            set => this._pastFileStructureFilename = value;
+        }
+        private string? _pastFileStructureFilename = null;
+
         public bool Equals(Config? other)
         {
             if (other == null)
@@ -51,6 +58,23 @@ namespace HasItChanged.Configuration
             }
 
             return true;
+        }
+
+        public string PrettyPrint()
+        {
+            var sb = new StringBuilder();
+
+            sb.AppendLine("---------");
+            sb.AppendLine($"root folder: {this.Root}");
+            if (this.FileExtensions == null || this.FileExtensions.Length == 0)
+                sb.AppendLine("file types: all");
+            else
+                sb.AppendLine($"file types: {this.FileExtensions.Aggregate((p,n) => p + ", " + n)}");
+
+            sb.AppendLine($"past data file: {this.PathToPastDataFile}");
+            sb.AppendLine("---------");
+
+            return sb.ToString();
         }
     }
 }

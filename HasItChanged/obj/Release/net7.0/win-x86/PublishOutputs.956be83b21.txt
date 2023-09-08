@@ -1,0 +1,2 @@
+C:\Repo\has-it-changed\HasItChanged\bin\Release\net7.0\publish\win-x86\HasItChanged.pdb
+C:\Repo\has-it-changed\HasItChanged\bin\Release\net7.0\publish\win-x86\HasItChanged.exe

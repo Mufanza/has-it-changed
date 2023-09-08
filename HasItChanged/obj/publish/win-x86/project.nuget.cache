@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QCmrJfRp30fes2ZEfL2ZnqPkKT017U2lZTD61k277o/sWdVljf6oXsVGEuEPm1AHdngP8cQwkZdcEhh5I+z/7g==",
+  "success": true,
+  "projectFilePath": "C:\\Repo\\has-it-changed\\HasItChanged\\HasItChanged.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mufan\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.7\\microsoft.netcore.app.runtime.win-x86.7.0.7.nupkg.sha512",
+    "C:\\Users\\mufan\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.7\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.7.nupkg.sha512",
+    "C:\\Users\\mufan\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.7\\microsoft.aspnetcore.app.runtime.win-x86.7.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
