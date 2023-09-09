@@ -20,13 +20,13 @@ In other words: either you know why you might need to use it, or you don't need 
 Putting the compiled .exe into the root folder and running it will just work.
 
 You may run it with the following flags:
-**-silent (-s):** make it not output anything to the console
-**-diff (-d):** prints what changes were found where (if not ran with -s)
+- **-silent (-s):** make it not output anything to the console
+- **-diff (-d):** prints what changes were found where (if not ran with -s)
 
 For more configuration, you may also create a file called 'HasItChanged_Config.json' in the root folder. You may fill it with the following optional parameters:
-**FileExtensions:** An array of file extensions; specifies what file types should be scanned. All file types will be checked for changes if this is omitted. Otherwise, the checker will only be interested in files specified in here.
-**Root:** You can use this to set the root folder to be somewhere else. If omitted, the folder from which the app is ran will be set as root.
-**PathToPastDataFile:** Similarly, you can use this to change where the scan results will be saved.
+- **FileExtensions:** An array of file extensions; specifies what file types should be scanned. All file types will be checked for changes if this is omitted. Otherwise, the checker will only be interested in files specified in here.
+- **Root:** You can use this to set the root folder to be somewhere else. If omitted, the folder from which the app is ran will be set as root.
+- **PathToPastDataFile:** Similarly, you can use this to change where the scan results will be saved.
 
 Example:
 ```
