@@ -12,7 +12,7 @@ The app ends with exit code 0 if no changes are detected (or if this is the firs
 The app might exit with -1 if anything goes unexpectedly wrong.
 
 ## Motivation
-You might need to put this into your deployment pipelines to do magical stuff; it's not meant to be used as a version control.
+You might need to put this into your pipelines to do magical stuff; it's not meant to be used as a version control.
 
 In other words: either you know why you might need to use it, or you don't need to use it.
 
