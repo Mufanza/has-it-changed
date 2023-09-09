@@ -12,14 +12,14 @@ namespace HasItChanged.Filesystem
     {
         public const string DefaultPastFileStructureFilename = "HasItChanged_FileStructure.json";
 
-        public static void SaveFileStructure(Dictionary<string, FileMetadata[]> fileStructure, string filePath)
+        public static void SaveFileStructure(FileStructure fileStructure, string filePath)
         {
             var options = new JsonSerializerOptions { WriteIndented = true };
-            string jsonString = JsonSerializer.Serialize(fileStructure, options);
+            string jsonString = JsonSerializer.Serialize(fileStructure.GetEntireFileStructure, options);
             File.WriteAllText(filePath, jsonString);
         }
 
-        public static Dictionary<string, FileMetadata[]>? ReadFileStructure(string filePath)
+        public static FileStructure? ReadFileStructure(string filePath)
         {
             if (!File.Exists(filePath))
                 return null;
@@ -27,8 +27,11 @@ namespace HasItChanged.Filesystem
             string jsonString = File.ReadAllText(filePath);
             try
             {
-                var fileStructure = JsonSerializer.Deserialize<Dictionary<string, FileMetadata[]>>(jsonString);
-                return fileStructure;
+                var fileStructureDict = JsonSerializer.Deserialize<Dictionary<string, Dictionary<string, FileMetadata>>>(jsonString);
+                if (fileStructureDict == null)
+                    return null;
+                
+                return new FileStructure(fileStructureDict);
             }
             catch (JsonException ex)
             {

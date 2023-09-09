@@ -24,10 +24,6 @@ namespace HasItChanged.IntegrationTests.Filesystem
             var actualD = target.CreateFileMetadata(new FileInfo(this.subfilepathD));
 
             // Assert
-            Assert.AreEqual(actualA.Path, this.filepathA);
-            Assert.AreEqual(actualB.Path, this.filepathB);
-            Assert.AreEqual(actualC.Path, this.subfilepathC);
-            Assert.AreEqual(actualD.Path, this.subfilepathD);
             Assert.AreEqual(actualA.FileHash, FilesystemTests.fileContentsA.GetHashCode());
             Assert.AreEqual(actualB.FileHash, FilesystemTests.fileContentsB.GetHashCode());
             Assert.AreEqual(actualC.FileHash, FilesystemTests.subfileContentsC.GetHashCode());

@@ -22,15 +22,15 @@ namespace HasItChanged.IntegrationTests.Filesystem
 
             // Assert
             // We expect 2 folders - one for the Root folder and one for the subfolder
-            Assert.AreEqual(2, fileStructure.Count);
+            Assert.AreEqual(2, fileStructure.GetAllFolders().Length);
 
-            var rootFolder = fileStructure.SingleOrDefault(kv => kv.Key == new DirectoryInfo(this.config.Root).FullName);
-            var subFolder = fileStructure.SingleOrDefault(kv => kv.Key == new DirectoryInfo(Path.Combine(this.config.Root, this.subfolderPath)).FullName);
+            var rootFolder = fileStructure.GetAllFolders().SingleOrDefault(f => f == new DirectoryInfo(this.config.Root).FullName);
+            var subFolder = fileStructure.GetAllFolders().SingleOrDefault(f => f == new DirectoryInfo(Path.Combine(this.config.Root, this.subfolderPath)).FullName);
 
             Assert.IsNotNull(rootFolder);
             Assert.IsNotNull(subFolder);
-            Assert.AreEqual(2, rootFolder.Value.Length);// file A and file B
-            Assert.AreEqual(2, subFolder.Value.Length);// subfile C and subfile D
+            Assert.AreEqual(2, fileStructure.GetAllFilesInFolder(rootFolder).Count);// file A and file B
+            Assert.AreEqual(2, fileStructure.GetAllFilesInFolder(subFolder).Count);// subfile C and subfile D
         }
 
         [TestMethod]
@@ -45,15 +45,15 @@ namespace HasItChanged.IntegrationTests.Filesystem
 
             // Assert
             // We expect 2 folders - one for the Root folder and one for the subfolder
-            Assert.AreEqual(2, fileStructure.Count);
+            Assert.AreEqual(2, fileStructure.GetAllFolders().Length);
 
-            var rootFolder = fileStructure.SingleOrDefault(kv => kv.Key == new DirectoryInfo(this.config.Root).FullName);
-            var subFolder = fileStructure.SingleOrDefault(kv => kv.Key == new DirectoryInfo(Path.Combine(this.config.Root, this.subfolderPath)).FullName);
+            var rootFolder = fileStructure.GetAllFolders().SingleOrDefault(f => f == new DirectoryInfo(this.config.Root).FullName);
+            var subFolder = fileStructure.GetAllFolders().SingleOrDefault(f => f == new DirectoryInfo(Path.Combine(this.config.Root, this.subfolderPath)).FullName);
 
             Assert.IsNotNull(rootFolder);
             Assert.IsNotNull(subFolder);
-            Assert.AreEqual(2, rootFolder.Value.Length);// file A and file B
-            Assert.AreEqual(1, subFolder.Value.Length);// subfile C (file D is missing, as that one is neither .txt nor .cs)
+            Assert.AreEqual(2, fileStructure.GetAllFilesInFolder(rootFolder).Count);// file A and file B
+            Assert.AreEqual(1, fileStructure.GetAllFilesInFolder(subFolder).Count);// subfile C (file D is missing, as that one is neither .txt nor .cs)
         }
     }
 }

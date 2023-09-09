@@ -11,11 +11,10 @@ namespace HasItChanged.Filesystem
     {
         public FileMetadata CreateFileMetadata(FileInfo file)
         {
-            var fileContents = File.ReadAllText(file.FullName);
+            var fileContents = File.ReadAllText(file.FullName, Encoding.UTF8);
             var fileHash = fileContents.GetHashCode();
             var metadata = new FileMetadata
             (
-                path:     file.FullName, 
                 byteSize: file.Length, 
                 fileHash: fileHash
             );

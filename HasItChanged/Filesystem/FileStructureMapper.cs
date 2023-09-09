@@ -21,17 +21,19 @@ namespace HasItChanged.Filesystem
             this.config = config;
         }
 
-        public async Task<Dictionary<string, FileMetadata[]>> MapFileStructure()
+        public async Task<FileStructure> MapFileStructure()
         {
             var rootDirectory = new DirectoryInfo(this.config.Root);
 
-            var fileMap = new ConcurrentDictionary<string, FileMetadata[]>();
+            var fileMap = new ConcurrentDictionary<string, ConcurrentDictionary<string, FileMetadata>>();
             await MapFilesAndSubDirectories(rootDirectory, fileMap);
 
-            return fileMap.ToDictionary(kv => kv.Key, kv => kv.Value);
+            // Convert from ConcurrentDictionary to regular Dictionary
+            var fileMapAsDict = fileMap.ToDictionary(kv => kv.Key, kv => kv.Value.ToDictionary(kvk => kvk.Key, kvk => kvk.Value));
+            return new FileStructure(fileMapAsDict);
         }
 
-        private async Task MapFilesAndSubDirectories(DirectoryInfo directory, ConcurrentDictionary<string, FileMetadata[]> map)
+        private async Task MapFilesAndSubDirectories(DirectoryInfo directory, ConcurrentDictionary<string, ConcurrentDictionary<string, FileMetadata>> map)
         {
             var subDirectories = directory.GetDirectories();
 
@@ -43,7 +45,7 @@ namespace HasItChanged.Filesystem
             await Task.WhenAll(tasks);
         }
 
-        private void MapFilesInDirectory(DirectoryInfo directory, ConcurrentDictionary<string, FileMetadata[]> map)
+        private void MapFilesInDirectory(DirectoryInfo directory, ConcurrentDictionary<string, ConcurrentDictionary<string, FileMetadata>> map)
         {
             var filesInDirectory = directory.GetFiles();
 
@@ -52,13 +54,13 @@ namespace HasItChanged.Filesystem
                     .Where(f => this.config.FileExtensions.Contains(f.Extension))
                     .ToArray();
 
-            var resultMetadata = new ConcurrentBag<FileMetadata>();
+            var resultMetadata = new ConcurrentDictionary<string, FileMetadata>();
             Parallel.ForEach(filesInDirectory, file => {
                 var metadata = this.fileMetadataCreator.CreateFileMetadata(file);
-                resultMetadata.Add(metadata);
+                resultMetadata.TryAdd(file.Name, metadata);
             });
 
-            if (!map.TryAdd(directory.FullName, resultMetadata.ToArray()))
+            if (!map.TryAdd(directory.FullName, resultMetadata))
                 throw new ApplicationException($"Tried to map the {directory.FullName} directory more than once!");
         }
     }

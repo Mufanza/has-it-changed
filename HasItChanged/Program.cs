@@ -31,7 +31,7 @@ public class Program
                 return 1;
             }
 
-            if (FileStructureComparer.AreFileStructuresEqual(previousFileStructure, currentFileStructure))
+            if (FileStructure.Equals(previousFileStructure, currentFileStructure))
             {
                 logger?.WriteLine("No changes were detected in the specified files.");
                 return 0;
@@ -40,7 +40,7 @@ public class Program
             {
                 logger?.WriteLine("Some changes were detected:");
                 if (ShouldDiffBeDisplayed(args))
-                    FileStructureComparer.Diff(previousFileStructure, currentFileStructure, logger);
+                    FileStructure.Diff(previousFileStructure, currentFileStructure, logger);
                 return 1;
             }
         }
@@ -51,6 +51,6 @@ public class Program
         }
     }
 
-    private static bool IsSilent(string[] args) => args.Any(a => a == "-s");
-    private static bool ShouldDiffBeDisplayed(string[] args) => args.Any(a => a == "-d");
+    private static bool IsSilent(string[] args) => args.Any(a => a == "-s" || a == "-silent");
+    private static bool ShouldDiffBeDisplayed(string[] args) => args.Any(a => a == "-d" || a == "-diff");
 }

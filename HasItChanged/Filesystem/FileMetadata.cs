@@ -8,13 +8,11 @@ namespace HasItChanged.Filesystem
 {
     public class FileMetadata : IEquatable<FileMetadata>
     {
-        public string Path { get; set; }
         public long ByteSize { get; set; }   
         public int FileHash { get; set; }
 
-        public FileMetadata(string path, long byteSize, int fileHash)
+        public FileMetadata(long byteSize, int fileHash)
         {
-            this.Path = path;
             this.ByteSize = byteSize;
             this.FileHash = fileHash;
         }
@@ -35,8 +33,6 @@ namespace HasItChanged.Filesystem
             if (other == null)
                 return false;
 
-            if (!string.Equals(this.Path, other.Path))
-                return false;
              if (this.ByteSize != other.ByteSize)
                 return false;
              if (this.FileHash != other.FileHash)

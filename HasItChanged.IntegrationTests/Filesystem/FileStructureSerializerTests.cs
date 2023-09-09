@@ -29,39 +29,34 @@ namespace HasItChanged.UnitTests.Filesystem
         public void FileStructure_can_be_serialized_and_deserialized()
         {
             // Arrange
-            var initialFileStructure = new Dictionary<string, FileMetadata[]>()
+            var initialFileStructureDict = new Dictionary<string, Dictionary<string, FileMetadata>>()
             {
                 {
                     "pathToFolder_A",
-                    new FileMetadata[] 
+                    new Dictionary<string, FileMetadata>()
                     {
-                        new FileMetadata(@"pathToFolder_A\fileA1.txt", 100, 12345),
-                        new FileMetadata(@"pathToFolder_A\fileA2.txt", 200, 56789)
+                        { "fileA1.txt", new FileMetadata(100, 12345) },
+                        { "fileA2.txt", new FileMetadata(200, 56789) }
                     }
                 },
                 {
                     "pathToFolder_B",
-                    new FileMetadata[] 
+                    new Dictionary<string, FileMetadata>()
                     {
-                        new FileMetadata(@"pathToFolder_B\fileB.txt", 500, 420420)
+                        { "fileB.txt", new FileMetadata(500, 420420) }
                     }
                 }
             };
+            var initialFileStructure = new FileStructure(initialFileStructureDict);
 
 
             // Act
-            FileStructureSerializer.SaveFileStructure(initialFileStructure, new Config().PathToPastDataFile);
+            FileStructureSerializer.SaveFileStructure(initialFileStructure, this.pathToTestFileStructureFile);
             var deserializedFileStructure = FileStructureSerializer.ReadFileStructure(this.pathToTestFileStructureFile);
 
             // Assert
             Assert.IsNotNull(deserializedFileStructure);
-            Assert.AreEqual(initialFileStructure.Keys.Count, deserializedFileStructure.Keys.Count);
-            foreach(var key in initialFileStructure.Keys)
-            {
-                Assert.AreEqual(initialFileStructure[key].Length, deserializedFileStructure[key].Length);
-                for(int i = 0; i < initialFileStructure[key].Length; i++)
-                    Assert.IsTrue(initialFileStructure[key][i].Equals(deserializedFileStructure[key][i]));
-            }
+            Assert.IsTrue(FileStructure.Equals(initialFileStructure, deserializedFileStructure));
         }
     }
 }
