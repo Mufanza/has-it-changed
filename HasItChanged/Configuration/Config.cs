@@ -73,7 +73,6 @@ namespace HasItChanged.Configuration
 
             sb.AppendLine($"past data file: {this.PathToPastDataFile}");
             sb.AppendLine("---------");
-
             return sb.ToString();
         }
     }

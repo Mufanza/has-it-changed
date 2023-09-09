@@ -35,15 +35,15 @@ namespace HasItChanged.UnitTests.Filesystem
                     "pathToFolder_A",
                     new Dictionary<string, FileMetadata>()
                     {
-                        { "fileA1.txt", new FileMetadata(100, 12345) },
-                        { "fileA2.txt", new FileMetadata(200, 56789) }
+                        { "fileA1.txt", new FileMetadata(100, "abc12345") },
+                        { "fileA2.txt", new FileMetadata(200, "dfg56789") }
                     }
                 },
                 {
                     "pathToFolder_B",
                     new Dictionary<string, FileMetadata>()
                     {
-                        { "fileB.txt", new FileMetadata(500, 420420) }
+                        { "fileB.txt", new FileMetadata(500, "hij420420") }
                     }
                 }
             };

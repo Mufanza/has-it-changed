@@ -50,8 +50,8 @@ namespace HasItChanged.UnitTests.Filesystem
                     "Folder1", 
                     new Dictionary<string, FileMetadata>
                     {
-                        { "file1.txt", new FileMetadata(100, 12345) },
-                        { "file2.txt", new FileMetadata(200, 67890) }
+                        { "file1.txt", new FileMetadata(100, "abc12345") },
+                        { "file2.txt", new FileMetadata(200, "def67890") }
                     }
                 }
             };
@@ -62,8 +62,8 @@ namespace HasItChanged.UnitTests.Filesystem
                     "Folder1", 
                     new Dictionary<string, FileMetadata>
                     {
-                        { "file1.txt", new FileMetadata(100, 11111) },// different filehash
-                        { "file2.txt", new FileMetadata(200, 67890) }
+                        { "file1.txt", new FileMetadata(100, "aaa11111") },// different filehash
+                        { "file2.txt", new FileMetadata(200, "def67890") }
                     }
                 }
             };
@@ -88,8 +88,8 @@ namespace HasItChanged.UnitTests.Filesystem
                     "Folder1", 
                     new Dictionary<string, FileMetadata>
                     {
-                        { "file1.txt", new FileMetadata(100, 12345) },
-                        { "file2.txt", new FileMetadata(200, 67890) }
+                        { "file1.txt", new FileMetadata(100, "abc12345") },
+                        { "file2.txt", new FileMetadata(200, "def67890") }
                     }
                 }
             };
@@ -100,8 +100,8 @@ namespace HasItChanged.UnitTests.Filesystem
                     "Folder1", 
                     new Dictionary<string, FileMetadata>
                     {
-                        { "file1.txt", new FileMetadata(100, 12345) },
-                        { "file2.txt", new FileMetadata(420, 67890) }// diferent size
+                        { "file1.txt", new FileMetadata(100, "abc12345") },
+                        { "file2.txt", new FileMetadata(420, "def67890") }// diferent size
                     }
                 }
             };
@@ -126,8 +126,8 @@ namespace HasItChanged.UnitTests.Filesystem
                     "Folder1", 
                     new Dictionary<string, FileMetadata>
                     {
-                        { "file1.txt", new FileMetadata(100, 12345) },
-                        { "file2.txt", new FileMetadata(200, 67890) }
+                        { "file1.txt", new FileMetadata(100, "abc12345") },
+                        { "file2.txt", new FileMetadata(200, "def67890") }
                     }
                 }
             };
@@ -138,9 +138,9 @@ namespace HasItChanged.UnitTests.Filesystem
                     "Folder1", 
                     new Dictionary<string, FileMetadata>
                     {
-                        { "file1.txt", new FileMetadata(100, 12345) },
-                        { "file2.txt", new FileMetadata(200, 67890) },
-                        { "file3.txt", new FileMetadata(300, 77777) }
+                        { "file1.txt", new FileMetadata(100, "abc12345") },
+                        { "file2.txt", new FileMetadata(200, "def67890") },
+                        { "file3.txt", new FileMetadata(300, "xyz77777") }
                     }
                 }
             };
@@ -165,8 +165,8 @@ namespace HasItChanged.UnitTests.Filesystem
                     "Folder1", 
                     new Dictionary<string, FileMetadata>
                     {
-                        { "file1.txt", new FileMetadata(100, 12345) },
-                        { "file2.txt", new FileMetadata(200, 67890) }
+                        { "file1.txt", new FileMetadata(100, "abc12345") },
+                        { "file2.txt", new FileMetadata(200, "def67890") }
                     }
                 },
                 {
@@ -181,8 +181,8 @@ namespace HasItChanged.UnitTests.Filesystem
                     "Folder1", 
                     new Dictionary<string, FileMetadata>
                     {
-                        { "file1.txt", new FileMetadata(100, 12345) },
-                        { "file2.txt", new FileMetadata(200, 67890) }
+                        { "file1.txt", new FileMetadata(100, "abc12345") },
+                        { "file2.txt", new FileMetadata(200, "def67890") }
                     }
                 }
             };
@@ -207,8 +207,8 @@ namespace HasItChanged.UnitTests.Filesystem
                     "Folder1", 
                     new Dictionary<string, FileMetadata>
                     {
-                        { "file1.txt", new FileMetadata(100, 12345) },
-                        { "file2.txt", new FileMetadata(200, 67890) }
+                        { "file1.txt", new FileMetadata(100, "abc12345") },
+                        { "file2.txt", new FileMetadata(200, "def67890") }
                     }
                 }
             };
@@ -219,8 +219,8 @@ namespace HasItChanged.UnitTests.Filesystem
                     "Folder1", 
                     new Dictionary<string, FileMetadata>
                     {
-                        { "file1.txt", new FileMetadata(100, 12345) },
-                        { "file2.txt", new FileMetadata(200, 67890) }
+                        { "file1.txt", new FileMetadata(100, "abc12345") },
+                        { "file2.txt", new FileMetadata(200, "def67890") }
                     }
                 }
             };

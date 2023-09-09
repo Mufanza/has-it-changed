@@ -9,9 +9,9 @@ namespace HasItChanged.Filesystem
     public class FileMetadata : IEquatable<FileMetadata>
     {
         public long ByteSize { get; set; }   
-        public int FileHash { get; set; }
+        public string FileHash { get; set; }
 
-        public FileMetadata(long byteSize, int fileHash)
+        public FileMetadata(long byteSize, string fileHash)
         {
             this.ByteSize = byteSize;
             this.FileHash = fileHash;
@@ -41,6 +41,7 @@ namespace HasItChanged.Filesystem
              return true;
         }
 
-        public override int GetHashCode() => this.FileHash;
+        public override int GetHashCode() => this.FileHash.GetHashCode();
+        public override string ToString() => $"{{ Size: {this.ByteSize}, Hash: {this.FileHash} }}";
     }
 }

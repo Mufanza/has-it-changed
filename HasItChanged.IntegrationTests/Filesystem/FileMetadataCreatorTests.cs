@@ -3,6 +3,7 @@ using HasItChanged.Filesystem;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,7 +13,7 @@ namespace HasItChanged.IntegrationTests.Filesystem
     public sealed class FileMetadataCreatorTests : FilesystemTests
     {
         [TestMethod]
-        public void ReadFiles_creates_correct_Metadata()
+        public void ReadFiles_creates_correct_distinct_hashes_for_Metadata()
         {
             // Arrange
             var target = new FileMetadataCreator();
@@ -23,11 +24,11 @@ namespace HasItChanged.IntegrationTests.Filesystem
             var actualC = target.CreateFileMetadata(new FileInfo(this.subfilepathC));
             var actualD = target.CreateFileMetadata(new FileInfo(this.subfilepathD));
 
-            // Assert
-            Assert.AreEqual(actualA.FileHash, FilesystemTests.fileContentsA.GetHashCode());
-            Assert.AreEqual(actualB.FileHash, FilesystemTests.fileContentsB.GetHashCode());
-            Assert.AreEqual(actualC.FileHash, FilesystemTests.subfileContentsC.GetHashCode());
-            Assert.AreEqual(actualD.FileHash, FilesystemTests.subfileContentsD.GetHashCode());
+            Assert.IsFalse(string.IsNullOrWhiteSpace(actualA.FileHash));
+            Assert.IsFalse(string.IsNullOrWhiteSpace(actualB.FileHash));
+            Assert.IsFalse(string.IsNullOrWhiteSpace(actualC.FileHash));
+            Assert.IsFalse(string.IsNullOrWhiteSpace(actualD.FileHash));
+            Assert.AreEqual(4, new string[] { actualA.FileHash, actualB.FileHash, actualC.FileHash, actualD.FileHash }.Distinct().Count());
         }
     }
 }

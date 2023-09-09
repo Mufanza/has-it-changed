@@ -18,7 +18,7 @@ public class Program
             // Read the configuration
             var config = ConfigReader.ReadConfiguration();
             logger?.WriteLine("running the has-it-changed utility tool");
-            logger?.WriteLine(config.PrettyPrint());
+            logger?.Write(config.PrettyPrint());
 
             // Try read previous file structure
             var previousFileStructure = FileStructureSerializer.ReadFileStructure(config.PathToPastDataFile);
@@ -40,7 +40,10 @@ public class Program
             {
                 logger?.WriteLine("Some changes were detected:");
                 if (ShouldDiffBeDisplayed(args))
+                {
+                    logger?.WriteLine();
                     FileStructure.Diff(previousFileStructure, currentFileStructure, logger);
+                }
                 return 1;
             }
         }

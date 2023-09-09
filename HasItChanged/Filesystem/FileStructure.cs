@@ -75,6 +75,14 @@ namespace HasItChanged.Filesystem
             return true;
         }
 
+        public static void Diff(FileStructure? previous, FileStructure? current)
+        {
+            var stringBuilder = new StringBuilder();
+            var customWriter = new StringWriter(stringBuilder);
+            Diff(previous, current, customWriter);
+            var text = stringBuilder.ToString();
+        }
+
         /// <summary>
         /// PrettyPrints the differences between two file structures into the standard output
         /// Doesn't change any state, just logs stuff for debugging purposes.
@@ -133,7 +141,6 @@ namespace HasItChanged.Filesystem
             if (comparableFolders.Length == 0)// no files to compare (all changes were done to folders)
                 return;
 
-            bool beginChangedFilesSection = true;
             foreach(var folder in comparableFolders)
             {
                 var newFiles = current.GetAllFilesInFolder(folder).Keys
@@ -150,21 +157,14 @@ namespace HasItChanged.Filesystem
                 var changedFiles = new List<Tuple<string, FileMetadata, FileMetadata>>();
                 foreach(var filename in comparableFilenames)
                 {
-                    var currentFile = current.GetAllFilesInFolder(filename)[filename];
-                    var previousFile = current.GetAllFilesInFolder(filename)[filename];
+                    var currentFile = current.GetAllFilesInFolder(folder)[filename];
+                    var previousFile = previous.GetAllFilesInFolder(folder)[filename];
                     if (!FileMetadata.Equals(currentFile, previousFile))
                         changedFiles.Add(new Tuple<string, FileMetadata, FileMetadata>(filename, currentFile, previousFile));
                 }
 
                 if (newFiles.Length == 0 && deletedFiles.Length == 0 && changedFiles.Count == 0)
                     continue;
-
-                if (beginChangedFilesSection)
-                {
-                    beginChangedFilesSection = false;
-                    logger?.WriteLine("Changes in folders:");
-                    logger?.WriteLine();
-                }
 
                 if (newFiles.Length > 0)
                 {    
