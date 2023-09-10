@@ -22,8 +22,9 @@ Putting the compiled .exe into the root folder and running it will just work.
 You may run it with the following flags:
 - **-silent (-s):** make it not output anything to the console
 - **-diff (-d):** prints what changes were found where (if not ran with -s)
+- **-config (-c):** Use this if you want the 'HasItChanged_Config.json' file (see bellow) reside elsewhere than in the project root. This argument must be followed by the new filepath. The file must still be named 'HasItChanged_Config.json'
 
-For more configuration, you may also create a file called 'HasItChanged_Config.json' in the root folder. You may fill it with the following optional parameters:
+For more configuration, you may also create a file called 'HasItChanged_Config.json'. By default it should reside in the root folder (or you can place it elsewhere and point to it with the -c argument (see above)). The 'HasItChanged.Config.json' file may be filled with the following optional parameters:
 - **FileExtensions:** An array of file extensions; specifies what file types should be scanned. All file types will be checked for changes if this is omitted. Otherwise, the checker will only be interested in files specified in here.
 - **Root:** You can use this to set the root folder to be somewhere else. If omitted, the folder from which the app is ran will be set as root.
 - **PathToPastDataFile:** Similarly, you can use this to change where the scan results will be saved.
@@ -34,6 +35,31 @@ Example:
   "FileExtensions": [ ".txt", ".py" ],
   "Root": "C:\\SomeOtherFolder\\MyProject",
   "PathToPastDataFile": "C:\\SomewhereElse\\HasItChanged_scan_results.json"
+}
+```
+
+The app can be called automatically from the command line/scripts. In PowerShell, it might look something like this:
+```
+# Get the path to the HasItChanged.exe
+$hasItChangedExePath = Join-Path -Path $PSScriptRoot -ChildPath "HasItChanged.exe"
+
+# Start the HasItChanged.exe process
+$hasItChangedProcess = Start-Process $hasItChangedExePath -ArgumentList "-d -c C:\Repo\MyProject\HasItChanged_Config.json" -NoNewWindow -PassThru
+
+# The .exe might start parallel processes, wait for all of them to finish
+$hasItChangedHandle = $hasItChangedProcess.Handle
+Wait-Process -Id $hasItChangedProcess.Id
+
+# Get the exit code and do stuff depending on whether there were changes or not
+$hasItChangedExitCode = $hasItChangedProcess.ExitCode
+if ($hasItChangedExitCode -eq 1)
+{
+  Write-Output "There were changes!"
+  doSomeStuff()
+}
+else
+{
+  Write-Output "There were no changes"
 }
 ```
 
