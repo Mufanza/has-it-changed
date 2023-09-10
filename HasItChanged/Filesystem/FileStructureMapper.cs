@@ -56,6 +56,12 @@ namespace HasItChanged.Filesystem
 
             var resultMetadata = new ConcurrentDictionary<string, FileMetadata>();
             Parallel.ForEach(filesInDirectory, file => {
+                
+                if (file.FullName == config.PathToPastDataFile)
+                    return;
+                if (file.Name == Config.ConfigFilename)
+                    return;
+
                 var metadata = this.fileMetadataCreator.CreateFileMetadata(file);
                 resultMetadata.TryAdd(file.Name, metadata);
             });

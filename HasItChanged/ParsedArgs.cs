@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HasItChanged.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -61,9 +62,9 @@ namespace HasItChanged
                     return null;
                 }
 
-                if (new FileInfo(pathToConfig).Extension != ".json")
+                if (new FileInfo(pathToConfig).Name != Config.ConfigFilename)
                 {
-                    this.parsedArgsLogs.AppendLine($"Path to config was specified with the {args[i]} argument as '{pathToConfig}'; but the specified file must be of the .json type. {args[i]} argument will be ignored");
+                    this.parsedArgsLogs.AppendLine($"Path to config was specified with the {args[i]} argument as '{pathToConfig}'; but the specified file must named: '{Config.ConfigFilename}'");
                     return null;
                 }
 

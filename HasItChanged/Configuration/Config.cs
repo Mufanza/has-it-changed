@@ -9,6 +9,7 @@ namespace HasItChanged.Configuration
 {
     public class Config : IEquatable<Config>
     {
+        public const string ConfigFilename = "HasItChanged_Config.json";
         public static Config DefaultConfiguration => new Config();
 
         /// <summary>
