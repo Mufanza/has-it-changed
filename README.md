@@ -6,10 +6,9 @@ Put [the compiled binary file](https://github.com/Mufanza/has-it-changed/release
 See the *Configuration* section bellow if you want to tweak it somehow.
 ## How does it work,
 The first time you run the app, it will do a quick scan through all files in the folder it resides in (as well as all of its subfolders). The results of this scan are saved to a file. Each subsequent time you run the app, the scan is repeated and its results are compared with the results of the previous run.
-The app ends with exit code 1 if changes are detected to any of the files.
-The app ends with exit code 0 if no changes are detected (or if this is the first time running the app, or if the results from the previous scan are not found)
-
-The app might exit with -1 if anything goes unexpectedly wrong.
+- The app ends with exit code 1 if changes are detected to any of the files.
+- The app ends with exit code 0 if no changes are detected (or if this is the first time running the app, or if the results from the previous scan are not found)
+- The app might exit with -1 if anything goes unexpectedly wrong.
 
 ## Motivation
 You might need to put this into your pipelines to do magical stuff; it's not meant to be used as a version control.
