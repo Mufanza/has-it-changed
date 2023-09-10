@@ -1,7 +1,7 @@
 ## What's this
 A simple console app that checks for changes in specified files. The changes are detected between each run of the app.
 ## Installation
-Put [the compiled binary file](https://github.com/Mufanza/has-it-changed/tree/master/Binaries) into the folder in which you want to track changes. It will just work.
+Put [the compiled binary file](https://github.com/Mufanza/has-it-changed/releases/download/v1.0.0/HasItChanged_v1.0.0_win-x86.zip) into the folder in which you want to track changes. It will just work.
 
 See the *Configuration* section bellow if you want to tweak it somehow.
 ## How does it work,
