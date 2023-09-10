@@ -1,4 +1,6 @@
-﻿using HasItChanged.Configuration;
+﻿using HasItChanged;
+using HasItChanged.Configuration;
+
 using HasItChanged.Filesystem;
 using System.Text;
 
@@ -11,12 +13,19 @@ public class Program
     /// </returns>
     public static async Task<int> Main(string[] args)
     {
-        var logger = IsSilent(args) ? null: Console.Out;
+        TextWriter? logger = null;
+        var parsedArgs = new ParsedArgs(args);
+
+        if (!parsedArgs.IsSilent)
+        {
+            logger = Console.Out;
+            logger.Write(parsedArgs.GetArgsParsingLogs());
+        }
 
         try
         {
             // Read the configuration
-            var config = ConfigReader.ReadConfiguration();
+            var config = ConfigReader.ReadConfiguration(parsedArgs.PathToConfigFile);
             logger?.WriteLine("running the has-it-changed utility tool");
             logger?.Write(config.PrettyPrint());
 
@@ -39,7 +48,7 @@ public class Program
             else
             {
                 logger?.WriteLine("Some changes were detected:");
-                if (ShouldDiffBeDisplayed(args))
+                if (parsedArgs.ShouldDiffBeDisplayed)
                 {
                     logger?.WriteLine();
                     FileStructure.Diff(previousFileStructure, currentFileStructure, logger);
@@ -53,7 +62,4 @@ public class Program
             return -1;
         }
     }
-
-    private static bool IsSilent(string[] args) => args.Any(a => a == "-s" || a == "-silent");
-    private static bool ShouldDiffBeDisplayed(string[] args) => args.Any(a => a == "-d" || a == "-diff");
 }
